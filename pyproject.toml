@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dynorunpy"
+version = "0.1.0"
+description = "dyno running race skipping obstacles"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+pygame = "^2.5.2"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
